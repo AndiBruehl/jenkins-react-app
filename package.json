@@ -1,5 +1,6 @@
 {
   "name": "jenkins-react-app",
+  "homepage": "http://3.127.135.236/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
