@@ -1,0 +1,7 @@
+version: '3'
+services:
+ web:
+    image: https://github.com/andibruehl/jenkins-react-app.git
+    ports:
+      - "80:80"
+    restart: always
