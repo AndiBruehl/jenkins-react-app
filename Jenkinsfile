@@ -15,6 +15,6 @@ node {
  }
  stage('Docker Build') {
     // Build the Docker image using the Dockerfile in the repository root
-    sh 'docker build -t https://github.com/andibruehl/jenkins-react-app .'
+    sh 'docker build -t https://github.com/andibruehl/jenkins-react-app.git .'
  }
 }
