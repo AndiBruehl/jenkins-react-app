@@ -13,8 +13,8 @@ node {
     sh 'docker exec node npm run build'
     sh 'docker kill node'
   }
-  stage('Cleanup') {
-    // Use the Git plugin to checkout the code
-    deleteDir()
-  }
+  # stage('Cleanup') {
+    # // Use the Git plugin to checkout the code
+   #  deleteDir()
+  # }
 }
